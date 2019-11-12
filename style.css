@@ -1,0 +1,87 @@
+.wrapper{
+	max-width: 1500px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.center{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container1{
+    display: block;
+	width: 100%;
+    max-width: 1500px;
+    max-height: 790px;
+    background: #111111;
+}
+
+.container1 .center header .block_logo p{
+	display: inline;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 24px;
+	color:#ffffff;
+	position: relative;
+	top: -15px;
+}
+
+.container1 .center header .header_navbar ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+.container1 .center header .header_navbar ul li{
+	display: inline;
+}
+
+.container1 .center header .header_navbar ul li:nth-child(9){
+	margin-left: 30px;
+}
+
+
+.container1 .center header .header_navbar ul li a{
+	text-decoration: none;
+	color: #dfdfdf;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;	
+}
+
+.container1 .block1{
+	text-align: center;
+	padding-top: 33vh;
+}
+
+.container1 .block1 h1{
+	text-align: center;
+	color: #999999;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 44px;
+}
+
+.container1 .block1 h1 span{
+    color: #fcac45;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 44px;
+}
+
+.container1 .block1 h2{
+	text-align: center;
+	color: #c3c3c3;
+	font-family: 'Open Sans', sans-serif;;
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+.container1 .block1 h2 span{
+    text-align: center;
+    color: #c3c3c3;
+    font-weight: 700;
+	font-size: 20px;
+    margin-top: 25px;
+}
